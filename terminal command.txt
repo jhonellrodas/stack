@@ -1,0 +1,35 @@
+TERMINAL COMMAND
+
+cd - change directory 
+cd . - go back to previous directory
+cd ~ - Go to default directory
+pwd - present working directory
+ls - list of directory
+mkdir - make directory
+rm - remove file / directory
+touch - create new file
+
+ 
+
+
+GIT COMMANDS
+
+git config - set username and password
+git config --global user.name "adsf" user.email "sdfsdf"
+git init - initialize git repository to the pwd
+git status - check the commitment of local repository to git
+git commit -m "Description" - copy the file to git
+git add - add the file to staging (readying to commit)
+git add . - add all the file that has not been tracked
+git branch -  check the branches
+git checkout -b *name of branch - create a branch inside git and go back to main branch or other branch
+git branch -d *name of branch- delete the branch
+
+
+GITHUB COMMANDS CONNECTED TO GITHUB
+
+
+git remote add origin "link to repository"- url for the github
+git push -u origin *nameofbranch - send copy of local files to repository
+git log - gives logs of what happened in a certain time frame 
+git clone - copy project from github
